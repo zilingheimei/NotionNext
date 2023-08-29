@@ -5,7 +5,7 @@
   --bg-light-pink: rgba(255, 240, 245, 0.9);
   --bg-pink: rgba(242, 194, 237, 1);
   --bg-white-dim: rgba(255, 255, 255, 0.8);
-  --bg-dim: rgba(255,255, 255, 0.3);
+  --bg-dim: rgba(255,255, 255, 1);
 }
 #theme-fukasawa .sideLeft hr{
     opacity: .04;

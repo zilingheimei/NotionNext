@@ -170,7 +170,7 @@ const LayoutArchive = (props) => {
   const { archivePosts } = props
   return <LayoutBase {...props} className='pt-8'>
         <Card className='w-full'>
-            <div className="mb-10 pb-20 bg-white-opacity md:p-12 p-3 min-h-full dark:bg-hexo-black-gray">
+            <div className="mb-10 pb-20 bg-pink md:p-12 p-3 min-h-full dark:bg-hexo-black-gray">
                 {Object.keys(archivePosts).map(archiveTitle => (
                     <BlogPostArchive
                         key={archiveTitle}
@@ -207,7 +207,7 @@ const LayoutSlug = props => {
 
   return (
         <LayoutBase {...props} headerSlot={<PostHeader {...props} />} showCategory={false} showTag={false} floatSlot={floatSlot} >
-            <div className="w-full lg:hover:shadow lg:border rounded-t-xl lg:rounded-xl lg:px-2 lg:py-4 bg-white-dim dark:bg-hexo-black-gray dark:border-black article">
+            <div className="w-full lg:hover:shadow lg:border rounded-t-xl lg:rounded-xl lg:px-2 lg:py-4 bg-white dark:bg-hexo-black-gray dark:border-black article">
                 {lock && <ArticleLock validPassword={validPassword} />}
 
                 {!lock && <div id="article-wrapper" className="overflow-x-auto flex-grow mx-auto md:w-full md:px-5 ">
@@ -231,7 +231,7 @@ const LayoutSlug = props => {
                     <div className='pt-4 border-dashed'></div>
 
                     {/* 评论互动 */}
-                    <div className="duration-200 overflow-x-auto bg-white-dim dark:bg-hexo-black-gray px-3">
+                    <div className="duration-200 overflow-x-auto bg-dim dark:bg-hexo-black-gray px-3">
                         <Comment frontMatter={post} />
                     </div>
                 </div>}
@@ -259,7 +259,7 @@ const Layout404 = props => {
         const article = document.getElementById('notion-article')
         if (!article) {
           router.push('/').then(() => {
-            // console.log('找不到页面', router.asPath)
+             console.log('找不到页面', router.asPath)
           })
         }
       }

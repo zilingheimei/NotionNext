@@ -1,11 +1,6 @@
 /* 静态文件导入 自定义样式*/
 
 :root {
-  --bg-white-opacity: rgba(255, 255, 255, 0.5);
-  --bg-light-pink: rgba(255, 240, 245, 0.9);
-  --bg-pink: rgba(242, 194, 237, 1);
-  --bg-white-dim: rgba(255, 255, 255, 0.8);
-  --bg-dim: rgba(242, 194, 237, 1);
 }
 #theme-fukasawa .sideLeft hr{
     opacity: .04;

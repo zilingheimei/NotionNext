@@ -58,9 +58,9 @@ function getPageElement(page, currentPage, pagePrefix) {
       passHref
       className={
           (page + '' === currentPage + ''
-            ? 'font-bold bg-indigo-400 dark:bg-indigo-500 text-white '
-            : 'border-b duration-500 border-indigo-300 hover:border-indigo-400 ') +
-          ' border-white dark:border-indigo-700 dark:hover:border-indigo-400 cursor-pointer pb-0.5 w-6 text-center font-light hover:font-bold'
+            ? 'font-bold bg-pink-300 dark:bg-pink-500 text-white rounded-full'
+            : 'border-b duration-500 border-pink-300 hover:border-indigo-300 rounded-full') +
+          ' border-white dark:border-pink-500 dark:hover:border-pink-300 rounded-full cursor-pointer pb-0.5 w-6 text-center font-light hover:font-bold'
       }>
 
       {page}
